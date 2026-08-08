@@ -7,42 +7,122 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Armita Kazemi</h1>
-    <p class="subtitle">Computer Science student interested in AI, design, and building useful products.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Armita Kazemi</a>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <section>
-      <h2>About Me</h2>
+  <main>
+    <section class="hero container">
+      <h1>Armita Kazemi</h1>
+      <p class="subtitle"><!-- TODO: role/tagline, e.g. "Computer Science student | Software & Machine Learning Engineering" --></p>
+      <div class="hero-links">
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:armita.kazemi85@gmail.com">Email</a>
+        <a href="#"><!-- TODO: link to resume PDF -->Resume</a>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About</h2>
+      <p><!-- TODO: short "about me" paragraph --></p>
+    </section>
+
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <h3><!-- TODO: School name --></h3>
+          <span class="entry-date"><!-- TODO: dates --></span>
+        </div>
+        <p class="entry-subtitle"><!-- TODO: degree, major, GPA --></p>
+        <ul class="entry-details">
+          <li><!-- TODO: relevant coursework / honors / activities --></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3><!-- TODO: Job title --></h3>
+          <span class="entry-date"><!-- TODO: dates --></span>
+        </div>
+        <p class="entry-subtitle"><!-- TODO: Company, location --></p>
+        <ul class="entry-details">
+          <li><!-- TODO: bullet point --></li>
+          <li><!-- TODO: bullet point --></li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3><!-- TODO: Job title --></h3>
+          <span class="entry-date"><!-- TODO: dates --></span>
+        </div>
+        <p class="entry-subtitle"><!-- TODO: Company, location --></p>
+        <ul class="entry-details">
+          <li><!-- TODO: bullet point --></li>
+          <li><!-- TODO: bullet point --></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3><!-- TODO: Project name --></h3>
+          <p><!-- TODO: short description --></p>
+          <div class="project-links">
+            <a href="#"><!-- TODO: repo/demo link -->Link</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3><!-- TODO: Project name --></h3>
+          <p><!-- TODO: short description --></p>
+          <div class="project-links">
+            <a href="#"><!-- TODO: repo/demo link -->Link</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3><!-- TODO: Project name --></h3>
+          <p><!-- TODO: short description --></p>
+          <div class="project-links">
+            <a href="#"><!-- TODO: repo/demo link -->Link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
       <p>
-        I’m a Princeton student interested in machine learning, user-centered products,
-        and building systems that solve real problems.
+        <a href="mailto:armita.kazemi85@gmail.com">armita.kazemi85@gmail.com</a>
+        &nbsp;·&nbsp;
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+        &nbsp;·&nbsp;
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
       </p>
     </section>
+  </main>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Medical Billing AI</strong> – exploring AI-assisted CPT code prediction</li>
-        <li><strong>Art Museum Website</strong> – building a personalized museum discovery experience</li>
-        <li><strong>Mayo AI Lab</strong> – worked on deep learning and medical imaging research</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Links</h2>
-      <ul>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Resume</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Currently</h2>
-      <p id="changing-text">Click the button to learn more.</p>
-      <button onclick="changeText()">Show Update</button>
-    </section>
-  </div>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Armita Kazemi</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
